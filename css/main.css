@@ -1,3 +1,198 @@
 /*
  * Estilos de tu proyecto
  */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+  position: fixed;
+  background: #2C3E50;
+  width: 100%;
+}
+
+header>div>p {
+  margin-left: 100px;
+  color: white;
+  float: left;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header>div>a {
+  float: right;
+  margin-top: 30px;
+  margin-right: 60px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#second {
+  background-color: #18BC9C;
+  color: white;
+  text-align: center;
+  padding-bottom: 150px;
+  padding-top: 300px;
+}
+
+#second>div>img {
+  width: 250px;
+}
+
+#second>div>h1 {
+  color: white;
+  font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 85px;
+}
+
+#second>div>p {
+  color: white;
+  font-size: 29px;
+}
+
+#third {
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+#third>div>h2 {
+  padding: 20px 0;
+  font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  color: #343a40;
+  font-size: 50px;
+}
+
+#third>div>img {
+  width: 100%
+}
+
+#third>.imagenes>div>img {
+  width: 350px;
+  height: 250px;
+}
+
+#third>.imagenes>div {
+  display: inline-block;
+  width: 27%;
+  margin: 10px;
+}
+
+#fourth{
+  background-color: #18BC9C;
+  text-align: center;
+  padding-bottom:150px;
+  padding-top: 150px;
+}
+
+#fourth>div>h2{
+
+  font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 50px;
+}
+
+.content{
+  font-size: 15px;
+   line-height: 20px;
+   text-align: justify;
+   color: white;
+   font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+   font-size: 20px;
+   padding-top: 5px;
+}
+.left {
+    float: left;
+    width: 28%;
+    padding-left: 250px ;
+}
+.right {
+    float: right;
+    width: 28%;
+    padding-right: 200px;
+}
+
+.button>a{
+  color: white;
+  padding: 15px 30px ;
+  display: inline-block;
+  margin-top: 100px;
+  margin-right: 468px;
+  margin-left: 468px;
+  border: white 2px solid;
+  text-decoration: none;
+}
+
+#fifth {
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+#fifth>div>h2 {
+  padding: 20px 0;
+  font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  color: #343a40;
+  font-size: 50px;
+}
+
+#fifth>div>form>input{
+  border: 0;
+  box-shadow: 1px 1px 5px #888888;
+  width: 600px;
+  height: 50px;
+  font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+/*#mail{
+  border: 0;
+  box-shadow: 1px 1px 5px #888888;
+  width: 600px;
+  height: 50px;
+  font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+#number{
+  border: 0;
+  box-shadow: 1px 1px 5px #888888;
+  width: 600px;
+  height: 50px;
+  font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+#message{
+  border: 0;
+  box-shadow: 1px 1px 5px #888888;
+  width: 600px;
+  height: 50px;
+  font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}*/
+
+hr.separador {
+  background-color: red;
+   height: 10px;
+   margin-left: 10%;
+   width: 25%;
+}
+
+hr.separador:before {
+    display: block;
+    content: " ";
+    height: 10px;
+    width: 50%;
+}
+
+hr.separador:after {
+    content: 'star';
+    display: inline-block;
+    position: relative;
+    font-size: 2px;
+    padding: 2px;
+    background: white;
+}
