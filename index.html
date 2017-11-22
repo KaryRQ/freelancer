@@ -1,4 +1,3 @@
-<!-- Agrega aquí la estructura HTML de tu sitio web -->
 <!DOCTYPE html>
 <html>
 
@@ -11,20 +10,22 @@
 </head>
 
 <body>
-
+  <!--En esta seccion se colocará todo lo que ira
+en la barra de navegacion la cual será estática-->
   <header>
     <div>
       <p>START BOOTSTRAP</p>
-      <a>CONTACT</a>
-      <a>ABOUT</a>
-      <a>PORTFOLIO</a>
+      <a href="#contact">CONTACT</a>
+      <a href="#about">ABOUT</a>
+      <a href="#portfolio">PORTFOLIO</a>
     </div>
   </header>
-
+<!--Esta será nuestra promera sección de la página-->
   <section id="second">
     <div>
       <img src="assets/images/profile.png" alt="profile">
       <h1>START BOOTSTRAP</h1>
+      <!--Esta será la división del texto y la imagen-->
       <hr class="line-white">
       <p>Web Developer - Graphic Artist - User Experience Designer</p>
     </div>
@@ -32,7 +33,9 @@
 
   <section id="third">
     <div>
-      <h2>PORTFOLIO</h2>
+      <h2 id="portfolio">PORTFOLIO</h2>
+      <!--Esta será la división del texto y las imagenes
+    de la parte de abajo-->
       <hr class="line-black">
     </div>
     <div class="imagenes">
@@ -59,7 +62,7 @@
 
   <section id="fourth">
     <div>
-      <h2>ABOUT</h2>
+      <h2 id="about">ABOUT</h2>
       <hr class="line-white">
       <div class="table">
         <div class="left">
@@ -73,33 +76,39 @@
           </div>
         </div>
       </div>
+      <!--Este será el botón de descaraga donde se coloca la imagen de fa-->
       <div class="button">
         <a href="" class="fa fa-download" aria-hidden="true">
           Download Theme</a>
       </div>
     </div>
   </section>
+
   <section id="fifth">
     <div>
-      <h2>CONTACT ME</h2>
+      <h2 id="contact">CONTACT ME</h2>
       <hr class="line-black">
+      <!--Esta será la parte dle formulario donde se
+    pide al usuario datos especificos-->
       <form class="info">
         <input class="name" id="name" type="text" placeholder="Name"><br>
         <input class="mail" id="mail" type="text" placeholder="Email Adress"><br>
         <input class="number" id="number" type="text" placeholder="Phone Number"><br>
         <input class="message" id="message" type="text" placeholder="Message"><br>
+        <!--Botón de enviar el formulario-->
         <button class="send">Button</button>
     </div>
-
+    <!--A partir de aqúi se define el footer de la página-->
     <div class="footer">
-  <div class="containerFooter">
-      <div class="infoGeneral">
-          <h3 class="titleFooter">LOCATION</h3>
-          <p class="textFooter">3481 Melrose Place
-          Bervely Hilss,CA 90210</p>
-      </div>
-      <div class="infoGeneral">
-          <h3 class="titleFooter">AROUND THE WEB</h3>
+      <div class="container-footer">
+        <div class="info-general">
+          <!--Aquí se define la dirección de la compañía-->
+          <h3 class="title-footer">LOCATION</h3>
+          <p class="text-footer">3481 Melrose Place Bervely Hilss,CA 90210</p>
+        </div>
+        <div class="info-general">
+          <!--En esta parte se colocarán las redes sociales de contacto de la empresa-->
+          <h3 class="title-footer">AROUND THE WEB</h3>
           <p class="redess">
             <i class="fa fa-facebook" aria-hidden="true"></i>
             <i class="fa fa-google-plus" aria-hidden="true"></i>
@@ -107,17 +116,17 @@
             <i class="fa fa-linkedin" aria-hidden="true"></i>
             <i class="fa fa-dribbble" aria-hidden="true"></i>
           </p>
+        </div>
+        <div class="info-general">
+          <!--Esta es la descripción general del sitio-->
+          <h3 class="title-footer">ABOUT FREELANCER</h3>
+          <p class="text-footer">Freelance is a free to use, open source Boostrap theme created by Start Boostrap
+          </p>
+        </div>
+        <div class="final-footer">
+          <p class="derechos">Copyright © Your Website 2017</p>
+        </div>
       </div>
-      <div class="infoGeneral">
-        <h3 class="titleFooter">ABOUT FREELANCER</h3>
-        <p class="textFooter">Freelance is a free to use, open source
-          Boostrap theme created by Start Boostrap
-        </p>
-      </div>
-    <div class="finalFooter">
-      <p class="derechos">Copyright © Your Website 2017</p>
     </div>
-  </div>
-</div>
 
 </html>
